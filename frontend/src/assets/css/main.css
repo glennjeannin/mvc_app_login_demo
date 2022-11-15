@@ -1,0 +1,47 @@
+.background{
+    background-color: lightgray;
+    height: 100vh;
+}
+
+.vue-template{
+    display: flex;
+    text-align: center;
+    max-height: fit-content;
+    max-width: fit-content;
+    padding: 150px 20px 20px 20px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    border-radius: 0 0 15px 15px;
+    background-color: whitesmoke;
+}
+
+.center-div{
+    margin: auto;
+}
+
+
+.icone-reseaux ul{
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.icone-reseaux ul li{
+    display: inline-block;
+}
+
+.icone-reseaux ul li a{
+    display: block;
+    font-size: 1.4em;
+    margin: 0 5px;
+    color: black;
+}
+
+.icone-reseaux ul li a:hover{
+    color: royalblue;
+    transform: scale(1.2);
+    transition-delay: 3ms;
+}
+
+button{
+    margin: 10px;
+}
